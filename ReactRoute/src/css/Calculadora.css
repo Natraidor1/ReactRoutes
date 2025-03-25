@@ -1,0 +1,34 @@
+body{
+background-color: antiquewhite;
+}
+
+#boton{
+    margin: 5em 1em 0em 1em;
+    width: 150px;
+    }
+
+.card{
+
+    width: 500px;
+}
+
+#contenedor-principal{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+    
+#btnLimpiar{
+    margin: 5em 1em 0em 1em;
+    width: 150px;
+    background-color: burlywood;
+}
+
+
+#btnLimpiar:hover{
+    transition: 1s;
+    background-color: blue;
+}
