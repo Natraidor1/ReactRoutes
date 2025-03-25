@@ -5,6 +5,7 @@ import Components from './Pages/components'
 import CardInformativa from './Pages/CardInformativa'
 import Calculadora from './Pages/Calculadora'
 import Todo from './Pages/TodoList'
+import Registro from './Pages/Registro'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Route path='/CardInformativa' element = {<CardInformativa />} />
       <Route path='/Calculadora' element = {<Calculadora />} />
       <Route path='/TodoList' element = {<Todo />} />
+      <Route path='/Registro' element = {<Registro />} />
       </Routes>
     </Router>
     </>
