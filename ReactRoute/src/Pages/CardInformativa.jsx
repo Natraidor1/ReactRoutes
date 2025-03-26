@@ -1,11 +1,12 @@
 import React from "react";
+import "../css/CardInformativa.css"
 
 const CardInformativa = (img,nombre, descripcion) =>{
 
     return(
 
         <>
-        <div className="card" style={{width: "18rem"}}>
+        <div id="cardInformativa" className="card" style={{width: "18rem"}}>
           <img src={"https://th.bing.com/th/id/R.e565c76499209dff5b7670261332406f?rik=796ktbXQlVX0gQ&pid=ImgRaw&r=0"} class="card-img-top" alt="kevin hart"/>
           <div className="card-body">
             <h3 className = "card-text">Francisco Nataren</h3> <br />
